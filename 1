@@ -1,0 +1,5 @@
+from pandas_datareader import wb
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+GDP = wb.download(indicator='NY.GDP.MKTP.KD',country = 'all', start = 1960, end = 2020)
